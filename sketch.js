@@ -23,7 +23,6 @@ function setup(){
 }
 
 function draw(){
-    background("white");
     if(playerCount===4){
       game.update(1);
     }
